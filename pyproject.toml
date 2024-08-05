@@ -15,6 +15,10 @@ plotly = "^5.23.0"
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.5.6"
 pre-commit = "^3.8.0"
+ipykernel = "^6.29.5"
+
+[tool.ruff]
+extend-include = ["*.ipynb"]
 
 [build-system]
 requires = ["poetry-core"]
